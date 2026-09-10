@@ -1,0 +1,12 @@
+name: Test - Notification Failure
+on: 
+  workflow_dispatch: 
+
+jobs:
+  simulated-failure:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Output Warning
+        run: echo "Simulating a build crash..."
+      - name: Force Failure
+        run: exit 1 # Aborts workflow to simulate failure
