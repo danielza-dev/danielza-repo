@@ -1,0 +1,7 @@
+File 2
+
+#### 4. Tables and Code Blocks
+*   **Expected UI**: As Google Chat Cards do not natively support HTML `<table>` blocks, ensure standard fallback formatting was applied (e.g., wrapping standard grid ASCII pipes or code blocks in `<pre><code>` or ` ``` `) to maintain visual column alignment without breaking card constraints.
+
+#### 5. Embedded GFM Elements
+*   **Expected UI**: Verify standard markdown tokens (`**`, `_`, `>`) were not escaped as raw strings. They must process into visual bolding, italics, or indents.

@@ -1,0 +1,15 @@
+File 1
+
+This PR is opened to verify full GFM parsing, task lists, and file count extraction.
+
+### 1. Mentions & Profile Links
+Assigning to @danielza for review.
+
+### 2. Basic Text Formatting
+- This is **bold text**.
+- This is _italic text_.
+
+### 3. Task Checks (Task Lists)
+- [x] Initial setup completed
+- [ ] Code review pending
+- [ ] Deployment prepared
