@@ -1,0 +1,12 @@
+name: Test - Notification Success
+on: 
+  workflow_dispatch: # Allows you to trigger manually from the Actions tab
+
+jobs:
+  simulated-success:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Output Success
+        run: echo "Pretending to build successfully..."
+      - name: Delay for execution time
+        run: sleep 10 # Halts for 10 seconds to generate execution time
