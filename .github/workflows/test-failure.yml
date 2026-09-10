@@ -14,5 +14,7 @@ jobs:
         run: echo "Simulating a build crash..."
       - name: Output Warning
         run: echo "Simulating a build crash..."
+      - name: Delay for execution time
+        run: sleep 10 # Halts for 10 seconds before failing
       - name: Force Failure
         run: exit 1 # Aborts workflow to simulate failure
