@@ -8,5 +8,11 @@ jobs:
     steps:
       - name: Output Warning
         run: echo "Simulating a build crash..."
+      - name: Output Warning
+        run: echo "Simulating a build crash..."
+      - name: Output Warning
+        run: echo "Simulating a build crash..."
+      - name: Output Warning
+        run: echo "Simulating a build crash..."
       - name: Force Failure
         run: exit 1 # Aborts workflow to simulate failure
